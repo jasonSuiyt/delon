@@ -8,6 +8,7 @@ import { registerLocaleData } from '@angular/common';
 export class StartupService {
     constructor(private injector: Injector) { }
 
+
     load(): Promise<any> {
         // only works with promises
         // https://github.com/angular/angular/issues/15088
